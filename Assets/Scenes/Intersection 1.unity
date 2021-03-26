@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 2
-  maxSpawnDelay: 7
+  maxSpawnDelay: 5
   uiScript: {fileID: 819651252}
   points:
   - {fileID: 1916110634}
@@ -2006,7 +2006,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.19731127, z: 0.1}
+  m_Size: {x: 0.02, y: 0.19731127, z: 0.1}
   m_Center: {x: 5.9604577e-10, y: -0.11865568, z: -0.014999999}
 --- !u!1 &313869105
 GameObject:
@@ -3762,6 +3762,10 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 0.099783786
       objectReference: {fileID: 0}
+    - target: {fileID: 65802008390280762, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 108106744683400656, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
       propertyPath: m_Range
       value: 10
@@ -3879,7 +3883,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.19353244, z: 0.10000002}
+  m_Size: {x: 0.02, y: 0.19353244, z: 0.10000002}
   m_Center: {x: 5.960464e-10, y: -0.116766185, z: -0.015000003}
 --- !u!1 &577271728
 GameObject:
@@ -6022,6 +6026,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.032586377
       objectReference: {fileID: 0}
+    - target: {fileID: 65802008390280762, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 108106744683400656, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
       propertyPath: m_Range
       value: 10
@@ -6097,10 +6105,10 @@ MonoBehaviour:
   - 2121
   - 1414
   statusDelay:
-  - 8
+  - 10
   - 3.5
   - 2
-  - 8
+  - 10
   - 3.5
   - 2
 --- !u!1 &1036635129
@@ -8106,7 +8114,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.18966153, z: 0.1}
+  m_Size: {x: 0.02, y: 0.18966153, z: 0.1}
   m_Center: {x: 5.96045e-10, y: -0.114830725, z: -0.014999998}
 --- !u!1 &1535589839 stripped
 GameObject:
@@ -8220,6 +8228,10 @@ PrefabInstance:
     - target: {fileID: 65802008390280762, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
       propertyPath: m_Center.z
       value: -0.03228702
+      objectReference: {fileID: 0}
+    - target: {fileID: 65802008390280762, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 108106744683400656, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
       propertyPath: m_Range
@@ -9657,7 +9669,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.18344761, z: 0.09999999}
+  m_Size: {x: 0.02, y: 0.18344761, z: 0.09999999}
   m_Center: {x: 5.960443e-10, y: -0.11172384, z: -0.014999999}
 --- !u!1 &1742994216
 GameObject:
@@ -11880,6 +11892,10 @@ PrefabInstance:
     - target: {fileID: 65802008390280762, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
       propertyPath: m_Size.z
       value: 0.09936107
+      objectReference: {fileID: 0}
+    - target: {fileID: 65802008390280762, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 108106744683400656, guid: 011d2a6b0e3c2534b948f110509c870c, type: 3}
       propertyPath: m_Range
